@@ -53,6 +53,11 @@ body {
   color: var(--accent);
 }
 
+.navbar .navbar-item:hover {
+  color: var(--accent) !important;
+  background-color: transparent !important;
+}
+
 /* ------------- Sections ------------- */
 section.section {
   padding: 3.5rem 0;
@@ -124,3 +129,23 @@ section.section {
   margin-bottom: 0.7em;
   line-height: 1.7;
 }
+
+.pdf-button {
+  font-size: 0.64rem;
+  padding: 0.1em 0.6em;
+  background-color: var(--accent);
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.pdf-button:hover {
+  background-color: #c89ba6;
+  color: white;
+}
+
+.edu-list {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
